@@ -42,7 +42,7 @@ public abstract class SolicitudSalida implements Aprobable {
     }
 
     @Override
-    public boolean denegeado(String nombreAprobador, String razon) {
+    public boolean denegado(String nombreAprobador, String razon) {
         return false;
     }
 
