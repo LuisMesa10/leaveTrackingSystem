@@ -3,7 +3,7 @@ package org.example.clases;
 public class SolicitudEnfermedad extends SolicitudSalida {
     private boolean certificadoMedicoValido;
 
-    public SolicitudEnfermedad(int solicitudID, Empleado empleado, String fechaInicio, String fechaFinal, String estadoSolicitud, String razonSolicitud, boolean certificadoMedicoValido) {
+    public SolicitudEnfermedad(int solicitudID, Empleado empleado, String fechaInicio, String fechaFinal, String razonSolicitud, boolean certificadoMedicoValido) {
         super(solicitudID, empleado, fechaInicio, fechaFinal, razonSolicitud);
         this.certificadoMedicoValido = certificadoMedicoValido;
     }
